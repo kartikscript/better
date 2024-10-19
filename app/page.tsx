@@ -1,4 +1,7 @@
-import Navbar from "@/components/shared/Navbar";
+
+import FAQsPage from "@/components/shared/FAQsPage";
+import Footer from "@/components/shared/Footer";
+import ReviewPage from "@/components/shared/ReviewPage";
 import { AlarmClock } from "lucide-react";
 import Image from "next/image";
 
@@ -27,7 +30,7 @@ export default function Home() {
           width={550}
           height={550}
           />
-          <div className=" mx-auto flex-1 flex  items-center justify-between w-[80%]">
+          <div className=" mx-auto flex-1 flex  items-center justify-between w-[70%]">
             <div >
               <button className="py-4 px-8 mb-2 text-md font-bold text-gray-800 bg-emerald-400 hover:bg-transparent hover:text-white rounded-full transition-all delay-75 duration-200">Start my approval</button>
               <p className="flex justify-center items-center gap-1 text-sm text-white/70 tracking-wide"><AlarmClock className="size-4"/> 3 min | No credit impact</p>
@@ -65,9 +68,10 @@ export default function Home() {
             </div>
           </div>
       </div>
-      <div className="h-screen bg-white">
-
-      </div>
+      
+      <ReviewPage/>
+      <FAQsPage/>
+      <Footer/>
     </>
 
   );
