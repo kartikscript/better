@@ -2,7 +2,7 @@ import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
 const CustomButton = ({id,title,activeId,handleClick}:{id?:string,title:string,activeId?:string,handleClick:(id:string)=>void}) => {
-  const isActive = id===activeId
+  const isActive =id&& id===activeId
   return (
     <button id={id} onClick={()=>handleClick(id ||'1')}
      className={twMerge(

@@ -61,3 +61,11 @@ export const footerServices = [
     description:'Get transparent rates when you shop for title insurance all in one convenient place.'
   },
 ]
+
+export const resouceLinks = ['Home affordability calculator','Mortgage calculator','Free mortgage calculator','Mortgage calculator with taxes','Mortgage calculator with PMI','Rent vs buy calculator','HELOC payment calculator','HELOC vs cash-out refinance calculator','Buy a home','Sell a home','Get home inspection']
+
+export const companyLinks=['About Us','Careers','Media','Partner With Us','Learning center','FAQs','Investor Relations']
+
+export const contactLinks=['hello@better.com','415-523-8837','FAQ','Glossary']
+
+export const legalLinks=['NMLS Consumer Access','Privacy Policy','Terms of Use','Disclosures & Licensing','Affiliated Business','Browser Disclaimer']

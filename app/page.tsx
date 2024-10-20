@@ -1,6 +1,5 @@
 
 import FAQsPage from "@/components/shared/FAQsPage";
-import Footer from "@/components/shared/Footer";
 import ReviewPage from "@/components/shared/ReviewPage";
 import { AlarmClock } from "lucide-react";
 import Image from "next/image";
@@ -71,7 +70,6 @@ export default function Home() {
       
       <ReviewPage/>
       <FAQsPage/>
-      <Footer/>
     </>
 
   );

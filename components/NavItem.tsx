@@ -1,10 +1,10 @@
 import { ArrowRight } from 'lucide-react'
 import React from 'react'
 
-const NavItem = ({title,subLinks,styles,isScrolled}:{title:string | React.ReactNode,subLinks:string[],styles?:string,isScrolled?:boolean}) => {
+const NavItem = ({title,subLinks,styles,isScrolled,otherPage}:{title:string | React.ReactNode,subLinks:string[],styles?:string,isScrolled?:boolean,otherPage?:boolean}) => {
   return (
     <div className=' relative group'>
-      <span className={`${!(typeof title ==='string') && 'p-0 cursor-default'} ${isScrolled ?'text-gray-900':'text-white'} p-4 peer w-full group-hover:bg-slate-50 group-hover:text-gray-800 rounded-full transition-all duration-200 delay-75 cursor-pointer`}>{title}</span>
+      <span className={`${!(typeof title ==='string') ? 'p-0 cursor-default':'p-4'} ${isScrolled || otherPage?'text-gray-900':'text-white'}  peer w-full group-hover:bg-slate-50 group-hover:text-gray-800 rounded-full transition-all duration-200 delay-75 cursor-pointer`}>{title}</span>
       <div className={` hidden group-hover:block absolute ${styles||'left-0'} pt-4`}>
         <div className='bg-white shadow-lg w-96 text-gray-900 tracking-wider space-y-1 rounded-2xl p-6'>
           {

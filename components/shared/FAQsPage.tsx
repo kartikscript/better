@@ -9,7 +9,11 @@ const FAQsPage = () => {
     <main className='px-12 py-32 border-b-2 border-slate-300'>
       <div className='flex justify-between items-end'>
         <h1 className='text-5xl text-gray-800 font-semibold'>Got questions?<br/>We've got answers</h1>
-        <CustomButton title='Our Products' handleClick={()=>null}/>
+        <div className='space-x-4'>
+          <CustomButton title='Our Products' handleClick={()=>null}/>
+          <CustomButton title='Calculators' handleClick={()=>null}/>
+          <CustomButton title='Guides & FAQs' handleClick={()=>null}/>
+        </div>
       </div>
       <div className='mt-10 grid grid-cols-3 gap-6'>
         <div className='p-8 rounded-lg bg-slate-100 flex flex-col gap-6'>
