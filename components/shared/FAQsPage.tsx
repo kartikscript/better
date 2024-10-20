@@ -8,7 +8,7 @@ const FAQsPage = () => {
   return (
     <main className='px-12 py-32 border-b-2 border-slate-300'>
       <div className='flex justify-between items-end'>
-        <h1 className='text-5xl text-gray-800 font-semibold'>Got questions?<br/>We've got answers</h1>
+        <h1 className='text-5xl text-gray-800 font-semibold'>Got questions?<br/>We&apos;ve got answers</h1>
         <div className='space-x-4'>
           <CustomButton title='Our Products' handleClick={()=>null}/>
           <CustomButton title='Calculators' handleClick={()=>null}/>

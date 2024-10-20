@@ -16,7 +16,7 @@ const page = () => {
           <div className='flex w-[50%] flex-col items-start gap-6'>
             <h2 className='font-semibold text-3xl'>The status quo is broken</h2>
             <p className=' text-gray-500'>The traditional processes around homeownership are opaque and stressful. Fees aren&apos;t transparent and some are simply outrageous in size. Traditional mortgage lending is rife with unnecessary fees and slow, painful processes. It&apos;s a system set up to benefit insiders — not you. Better.com CEO, Vishal Garg, set out to change that.</p>
-            <button className="py-5 px-8 mt-6 mb-4 text-md font-bold text-emerald-50 hover:bg-primary bg-emerald-700 rounded-lg transition-all delay-75 duration-200">Read Vishal's story</button>
+            <button className="py-5 px-8 mt-6 mb-4 text-md font-bold text-emerald-50 hover:bg-primary bg-emerald-700 rounded-lg transition-all delay-75 duration-200">Read Vishal&apos;s story</button>
           </div>
           <div className='w-[450px] aspect-square relative'>
             <Image
