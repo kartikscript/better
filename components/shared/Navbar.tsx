@@ -36,6 +36,7 @@ const Navbar = () => {
   }, []);
 
   const otherPage = pathname !== '/'
+  if(pathname === '/start')return null
   return (
     <header className={`z-50 p-5 ${isScrolledPast ||otherPage ?'bg-white text-gray-900':'bg-primary'} sticky top-0 font-medium flex items-center justify-between`}>
       <div className='flex gap-8 '>
